@@ -17,7 +17,7 @@ class Solution16 {
     public String largestNumber(int[] nums) {
         int n = nums.length;
         if (n == 0){
-            return "数组为空！";
+            return "数组为空！！";
         }
 
         // 转换成包装类型，以便传入 Comparator 对象（此处为 lambda 表达式）
